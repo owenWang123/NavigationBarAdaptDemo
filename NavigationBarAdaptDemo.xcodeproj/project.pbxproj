@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A1CF69A21A29DC500F25B7F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1CF69921A29DC500F25B7F /* AppDelegate.m */; };
+		5A1CF69D21A29DC500F25B7F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1CF69C21A29DC500F25B7F /* ViewController.m */; };
+		5A1CF6A021A29DC500F25B7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A1CF69E21A29DC500F25B7F /* Main.storyboard */; };
+		5A1CF6A221A29DCF00F25B7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A1CF6A121A29DCF00F25B7F /* Assets.xcassets */; };
+		5A1CF6A521A29DCF00F25B7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A1CF6A321A29DCF00F25B7F /* LaunchScreen.storyboard */; };
+		5A1CF6A821A29DCF00F25B7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1CF6A721A29DCF00F25B7F /* main.m */; };
+		5A1CF6B221A29DCF00F25B7F /* NavigationBarAdaptDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1CF6B121A29DCF00F25B7F /* NavigationBarAdaptDemoTests.m */; };
+		5A1CF6BD21A29DCF00F25B7F /* NavigationBarAdaptDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1CF6BC21A29DCF00F25B7F /* NavigationBarAdaptDemoUITests.m */; };
+		5A1CF6E021A2A1D800F25B7F /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1CF6DF21A2A1D800F25B7F /* BaseNavigationController.m */; };
+		5A1CF6F321A2A48900F25B7F /* HTContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1CF6F221A2A48900F25B7F /* HTContentViewController.m */; };
+		5A1CF6F621A2B37400F25B7F /* UIButton+ImagePosition.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1CF6F421A2B37400F25B7F /* UIButton+ImagePosition.m */; };
+		5A1CF6F921A2B82C00F25B7F /* UIBarButtonItem+SimpleInit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1CF6F821A2B82C00F25B7F /* UIBarButtonItem+SimpleInit.m */; };
+		5A1CF70521A2C01300F25B7F /* NSObject+SXRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1CF6FC21A2C01300F25B7F /* NSObject+SXRuntime.m */; };
+		5A1CF70621A2C01300F25B7F /* UINavigationBar+SXFixSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1CF6FE21A2C01300F25B7F /* UINavigationBar+SXFixSpace.m */; };
+		5A1CF70721A2C01300F25B7F /* UINavigationConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1CF70021A2C01300F25B7F /* UINavigationConfig.m */; };
+		5A1CF70821A2C01300F25B7F /* UINavigationController+SXFixSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1CF70221A2C01300F25B7F /* UINavigationController+SXFixSpace.m */; };
+		5A1CF70921A2C01300F25B7F /* UINavigationItem+SXFixSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1CF70421A2C01300F25B7F /* UINavigationItem+SXFixSpace.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A1CF6AE21A29DCF00F25B7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A1CF68D21A29DC500F25B7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A1CF69421A29DC500F25B7F;
+			remoteInfo = NavigationBarAdaptDemo;
+		};
+		5A1CF6B921A29DCF00F25B7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A1CF68D21A29DC500F25B7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A1CF69421A29DC500F25B7F;
+			remoteInfo = NavigationBarAdaptDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A1CF69521A29DC500F25B7F /* NavigationBarAdaptDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationBarAdaptDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A1CF69821A29DC500F25B7F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5A1CF69921A29DC500F25B7F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5A1CF69B21A29DC500F25B7F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5A1CF69C21A29DC500F25B7F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5A1CF69F21A29DC500F25B7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A1CF6A121A29DCF00F25B7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A1CF6A421A29DCF00F25B7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A1CF6A621A29DCF00F25B7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A1CF6A721A29DCF00F25B7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5A1CF6AD21A29DCF00F25B7F /* NavigationBarAdaptDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationBarAdaptDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A1CF6B121A29DCF00F25B7F /* NavigationBarAdaptDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationBarAdaptDemoTests.m; sourceTree = "<group>"; };
+		5A1CF6B321A29DCF00F25B7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A1CF6B821A29DCF00F25B7F /* NavigationBarAdaptDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationBarAdaptDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A1CF6BC21A29DCF00F25B7F /* NavigationBarAdaptDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationBarAdaptDemoUITests.m; sourceTree = "<group>"; };
+		5A1CF6BE21A29DCF00F25B7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A1CF6DE21A2A1D800F25B7F /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		5A1CF6DF21A2A1D800F25B7F /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		5A1CF6F121A2A48900F25B7F /* HTContentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTContentViewController.h; sourceTree = "<group>"; };
+		5A1CF6F221A2A48900F25B7F /* HTContentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTContentViewController.m; sourceTree = "<group>"; };
+		5A1CF6F421A2B37400F25B7F /* UIButton+ImagePosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImagePosition.m"; sourceTree = "<group>"; };
+		5A1CF6F521A2B37400F25B7F /* UIButton+ImagePosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImagePosition.h"; sourceTree = "<group>"; };
+		5A1CF6F721A2B82C00F25B7F /* UIBarButtonItem+SimpleInit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+SimpleInit.h"; sourceTree = "<group>"; };
+		5A1CF6F821A2B82C00F25B7F /* UIBarButtonItem+SimpleInit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+SimpleInit.m"; sourceTree = "<group>"; };
+		5A1CF6FB21A2C01300F25B7F /* NSObject+SXRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SXRuntime.h"; sourceTree = "<group>"; };
+		5A1CF6FC21A2C01300F25B7F /* NSObject+SXRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SXRuntime.m"; sourceTree = "<group>"; };
+		5A1CF6FD21A2C01300F25B7F /* UINavigationBar+SXFixSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+SXFixSpace.h"; sourceTree = "<group>"; };
+		5A1CF6FE21A2C01300F25B7F /* UINavigationBar+SXFixSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+SXFixSpace.m"; sourceTree = "<group>"; };
+		5A1CF6FF21A2C01300F25B7F /* UINavigationConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UINavigationConfig.h; sourceTree = "<group>"; };
+		5A1CF70021A2C01300F25B7F /* UINavigationConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UINavigationConfig.m; sourceTree = "<group>"; };
+		5A1CF70121A2C01300F25B7F /* UINavigationController+SXFixSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+SXFixSpace.h"; sourceTree = "<group>"; };
+		5A1CF70221A2C01300F25B7F /* UINavigationController+SXFixSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+SXFixSpace.m"; sourceTree = "<group>"; };
+		5A1CF70321A2C01300F25B7F /* UINavigationItem+SXFixSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+SXFixSpace.h"; sourceTree = "<group>"; };
+		5A1CF70421A2C01300F25B7F /* UINavigationItem+SXFixSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+SXFixSpace.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A1CF69221A29DC500F25B7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A1CF6AA21A29DCF00F25B7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A1CF6B521A29DCF00F25B7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A1CF68C21A29DC500F25B7F = {
+			isa = PBXGroup;
+			children = (
+				5A1CF69721A29DC500F25B7F /* NavigationBarAdaptDemo */,
+				5A1CF6B021A29DCF00F25B7F /* NavigationBarAdaptDemoTests */,
+				5A1CF6BB21A29DCF00F25B7F /* NavigationBarAdaptDemoUITests */,
+				5A1CF69621A29DC500F25B7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A1CF69621A29DC500F25B7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A1CF69521A29DC500F25B7F /* NavigationBarAdaptDemo.app */,
+				5A1CF6AD21A29DCF00F25B7F /* NavigationBarAdaptDemoTests.xctest */,
+				5A1CF6B821A29DCF00F25B7F /* NavigationBarAdaptDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A1CF69721A29DC500F25B7F /* NavigationBarAdaptDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5A1CF6FA21A2C01300F25B7F /* UINavigation-SXFixSpace */,
+				5A1CF6DD21A2A1D800F25B7F /* Custom */,
+				5A1CF69821A29DC500F25B7F /* AppDelegate.h */,
+				5A1CF69921A29DC500F25B7F /* AppDelegate.m */,
+				5A1CF69B21A29DC500F25B7F /* ViewController.h */,
+				5A1CF69C21A29DC500F25B7F /* ViewController.m */,
+				5A1CF6F121A2A48900F25B7F /* HTContentViewController.h */,
+				5A1CF6F221A2A48900F25B7F /* HTContentViewController.m */,
+				5A1CF69E21A29DC500F25B7F /* Main.storyboard */,
+				5A1CF6A121A29DCF00F25B7F /* Assets.xcassets */,
+				5A1CF6A321A29DCF00F25B7F /* LaunchScreen.storyboard */,
+				5A1CF6A621A29DCF00F25B7F /* Info.plist */,
+				5A1CF6A721A29DCF00F25B7F /* main.m */,
+			);
+			path = NavigationBarAdaptDemo;
+			sourceTree = "<group>";
+		};
+		5A1CF6B021A29DCF00F25B7F /* NavigationBarAdaptDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A1CF6B121A29DCF00F25B7F /* NavigationBarAdaptDemoTests.m */,
+				5A1CF6B321A29DCF00F25B7F /* Info.plist */,
+			);
+			path = NavigationBarAdaptDemoTests;
+			sourceTree = "<group>";
+		};
+		5A1CF6BB21A29DCF00F25B7F /* NavigationBarAdaptDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A1CF6BC21A29DCF00F25B7F /* NavigationBarAdaptDemoUITests.m */,
+				5A1CF6BE21A29DCF00F25B7F /* Info.plist */,
+			);
+			path = NavigationBarAdaptDemoUITests;
+			sourceTree = "<group>";
+		};
+		5A1CF6DD21A2A1D800F25B7F /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				5A1CF6F521A2B37400F25B7F /* UIButton+ImagePosition.h */,
+				5A1CF6F421A2B37400F25B7F /* UIButton+ImagePosition.m */,
+				5A1CF6F721A2B82C00F25B7F /* UIBarButtonItem+SimpleInit.h */,
+				5A1CF6F821A2B82C00F25B7F /* UIBarButtonItem+SimpleInit.m */,
+				5A1CF6DE21A2A1D800F25B7F /* BaseNavigationController.h */,
+				5A1CF6DF21A2A1D800F25B7F /* BaseNavigationController.m */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		5A1CF6FA21A2C01300F25B7F /* UINavigation-SXFixSpace */ = {
+			isa = PBXGroup;
+			children = (
+				5A1CF6FB21A2C01300F25B7F /* NSObject+SXRuntime.h */,
+				5A1CF6FC21A2C01300F25B7F /* NSObject+SXRuntime.m */,
+				5A1CF6FD21A2C01300F25B7F /* UINavigationBar+SXFixSpace.h */,
+				5A1CF6FE21A2C01300F25B7F /* UINavigationBar+SXFixSpace.m */,
+				5A1CF6FF21A2C01300F25B7F /* UINavigationConfig.h */,
+				5A1CF70021A2C01300F25B7F /* UINavigationConfig.m */,
+				5A1CF70121A2C01300F25B7F /* UINavigationController+SXFixSpace.h */,
+				5A1CF70221A2C01300F25B7F /* UINavigationController+SXFixSpace.m */,
+				5A1CF70321A2C01300F25B7F /* UINavigationItem+SXFixSpace.h */,
+				5A1CF70421A2C01300F25B7F /* UINavigationItem+SXFixSpace.m */,
+			);
+			path = "UINavigation-SXFixSpace";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A1CF69421A29DC500F25B7F /* NavigationBarAdaptDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A1CF6C121A29DCF00F25B7F /* Build configuration list for PBXNativeTarget "NavigationBarAdaptDemo" */;
+			buildPhases = (
+				5A1CF69121A29DC500F25B7F /* Sources */,
+				5A1CF69221A29DC500F25B7F /* Frameworks */,
+				5A1CF69321A29DC500F25B7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NavigationBarAdaptDemo;
+			productName = NavigationBarAdaptDemo;
+			productReference = 5A1CF69521A29DC500F25B7F /* NavigationBarAdaptDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A1CF6AC21A29DCF00F25B7F /* NavigationBarAdaptDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A1CF6C421A29DCF00F25B7F /* Build configuration list for PBXNativeTarget "NavigationBarAdaptDemoTests" */;
+			buildPhases = (
+				5A1CF6A921A29DCF00F25B7F /* Sources */,
+				5A1CF6AA21A29DCF00F25B7F /* Frameworks */,
+				5A1CF6AB21A29DCF00F25B7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A1CF6AF21A29DCF00F25B7F /* PBXTargetDependency */,
+			);
+			name = NavigationBarAdaptDemoTests;
+			productName = NavigationBarAdaptDemoTests;
+			productReference = 5A1CF6AD21A29DCF00F25B7F /* NavigationBarAdaptDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A1CF6B721A29DCF00F25B7F /* NavigationBarAdaptDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A1CF6C721A29DCF00F25B7F /* Build configuration list for PBXNativeTarget "NavigationBarAdaptDemoUITests" */;
+			buildPhases = (
+				5A1CF6B421A29DCF00F25B7F /* Sources */,
+				5A1CF6B521A29DCF00F25B7F /* Frameworks */,
+				5A1CF6B621A29DCF00F25B7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A1CF6BA21A29DCF00F25B7F /* PBXTargetDependency */,
+			);
+			name = NavigationBarAdaptDemoUITests;
+			productName = NavigationBarAdaptDemoUITests;
+			productReference = 5A1CF6B821A29DCF00F25B7F /* NavigationBarAdaptDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A1CF68D21A29DC500F25B7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = owen;
+				TargetAttributes = {
+					5A1CF69421A29DC500F25B7F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					5A1CF6AC21A29DCF00F25B7F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 5A1CF69421A29DC500F25B7F;
+					};
+					5A1CF6B721A29DCF00F25B7F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 5A1CF69421A29DC500F25B7F;
+					};
+				};
+			};
+			buildConfigurationList = 5A1CF69021A29DC500F25B7F /* Build configuration list for PBXProject "NavigationBarAdaptDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A1CF68C21A29DC500F25B7F;
+			productRefGroup = 5A1CF69621A29DC500F25B7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A1CF69421A29DC500F25B7F /* NavigationBarAdaptDemo */,
+				5A1CF6AC21A29DCF00F25B7F /* NavigationBarAdaptDemoTests */,
+				5A1CF6B721A29DCF00F25B7F /* NavigationBarAdaptDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A1CF69321A29DC500F25B7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A1CF6A521A29DCF00F25B7F /* LaunchScreen.storyboard in Resources */,
+				5A1CF6A221A29DCF00F25B7F /* Assets.xcassets in Resources */,
+				5A1CF6A021A29DC500F25B7F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A1CF6AB21A29DCF00F25B7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A1CF6B621A29DCF00F25B7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A1CF69121A29DC500F25B7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A1CF69D21A29DC500F25B7F /* ViewController.m in Sources */,
+				5A1CF70521A2C01300F25B7F /* NSObject+SXRuntime.m in Sources */,
+				5A1CF70621A2C01300F25B7F /* UINavigationBar+SXFixSpace.m in Sources */,
+				5A1CF6F621A2B37400F25B7F /* UIButton+ImagePosition.m in Sources */,
+				5A1CF70821A2C01300F25B7F /* UINavigationController+SXFixSpace.m in Sources */,
+				5A1CF6F321A2A48900F25B7F /* HTContentViewController.m in Sources */,
+				5A1CF70921A2C01300F25B7F /* UINavigationItem+SXFixSpace.m in Sources */,
+				5A1CF70721A2C01300F25B7F /* UINavigationConfig.m in Sources */,
+				5A1CF6E021A2A1D800F25B7F /* BaseNavigationController.m in Sources */,
+				5A1CF6A821A29DCF00F25B7F /* main.m in Sources */,
+				5A1CF6F921A2B82C00F25B7F /* UIBarButtonItem+SimpleInit.m in Sources */,
+				5A1CF69A21A29DC500F25B7F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A1CF6A921A29DCF00F25B7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A1CF6B221A29DCF00F25B7F /* NavigationBarAdaptDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A1CF6B421A29DCF00F25B7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A1CF6BD21A29DCF00F25B7F /* NavigationBarAdaptDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A1CF6AF21A29DCF00F25B7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A1CF69421A29DC500F25B7F /* NavigationBarAdaptDemo */;
+			targetProxy = 5A1CF6AE21A29DCF00F25B7F /* PBXContainerItemProxy */;
+		};
+		5A1CF6BA21A29DCF00F25B7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A1CF69421A29DC500F25B7F /* NavigationBarAdaptDemo */;
+			targetProxy = 5A1CF6B921A29DCF00F25B7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A1CF69E21A29DC500F25B7F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A1CF69F21A29DC500F25B7F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A1CF6A321A29DCF00F25B7F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A1CF6A421A29DCF00F25B7F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A1CF6BF21A29DCF00F25B7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5A1CF6C021A29DCF00F25B7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A1CF6C221A29DCF00F25B7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3J7B9KYE5F;
+				INFOPLIST_FILE = NavigationBarAdaptDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.owen.-NavigationBarAdaptDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A1CF6C321A29DCF00F25B7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3J7B9KYE5F;
+				INFOPLIST_FILE = NavigationBarAdaptDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.owen.-NavigationBarAdaptDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5A1CF6C521A29DCF00F25B7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NavigationBarAdaptDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.owen.NavigationBarAdaptDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NavigationBarAdaptDemo.app/NavigationBarAdaptDemo";
+			};
+			name = Debug;
+		};
+		5A1CF6C621A29DCF00F25B7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NavigationBarAdaptDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.owen.NavigationBarAdaptDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NavigationBarAdaptDemo.app/NavigationBarAdaptDemo";
+			};
+			name = Release;
+		};
+		5A1CF6C821A29DCF00F25B7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NavigationBarAdaptDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.owen.NavigationBarAdaptDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NavigationBarAdaptDemo;
+			};
+			name = Debug;
+		};
+		5A1CF6C921A29DCF00F25B7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NavigationBarAdaptDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.owen.NavigationBarAdaptDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NavigationBarAdaptDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A1CF69021A29DC500F25B7F /* Build configuration list for PBXProject "NavigationBarAdaptDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A1CF6BF21A29DCF00F25B7F /* Debug */,
+				5A1CF6C021A29DCF00F25B7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A1CF6C121A29DCF00F25B7F /* Build configuration list for PBXNativeTarget "NavigationBarAdaptDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A1CF6C221A29DCF00F25B7F /* Debug */,
+				5A1CF6C321A29DCF00F25B7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A1CF6C421A29DCF00F25B7F /* Build configuration list for PBXNativeTarget "NavigationBarAdaptDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A1CF6C521A29DCF00F25B7F /* Debug */,
+				5A1CF6C621A29DCF00F25B7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A1CF6C721A29DCF00F25B7F /* Build configuration list for PBXNativeTarget "NavigationBarAdaptDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A1CF6C821A29DCF00F25B7F /* Debug */,
+				5A1CF6C921A29DCF00F25B7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A1CF68D21A29DC500F25B7F /* Project object */;
+}

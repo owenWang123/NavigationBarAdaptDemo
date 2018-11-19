@@ -2,7 +2,7 @@
 此Demo为参考之作，引用了spicyShrimp写的一个导航栏修复的库。详情见：https://github.com/spicyShrimp/UINavigation-SXFixSpace
 
 # 内容要点
-  1、引入库文件夹:UINavigation-SXFixSpace。修复导航栏偏移
+  1、引入库文件夹:UINavigation-SXFixSpace。修复导航栏偏移.  
   2、UIBarButtonItem+SimpleInit，适用多种情况的Item创建。
   
   ## 使用案例：
